@@ -1,7 +1,17 @@
 .footer {
     width: 100%;
-    background-color: rgb(150, 15, 15);
-    color: white;
-    padding: 2%;
+    background-color: #e1e1e1;
+    color: black;
+    /* padding: 2%; */
+    height: 125px;
     text-align: center;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+.socmed {
+    cursor: pointer;
 }

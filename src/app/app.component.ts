@@ -8,5 +8,8 @@ import { assetUrl } from 'src/single-spa/asset-url';
 })
 export class AppComponent {
   title = 'app1';
+  year = '2021'
   yoshiUrl = assetUrl("yoshi.png");
+  ytUrl = assetUrl("yt.png");
+  liUrl = assetUrl("li.png");
 }
